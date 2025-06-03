@@ -13,3 +13,9 @@ or `uv` using
 ```bash
 uv sync
 ```
+
+## Data generation and model training
+See two_mass_oscillator.ipynb
+
+## Example usage
+See main.py
