@@ -1,4 +1,4 @@
-from dynax import ISPHS, ODESolver, LyapunovNN, aprbs
+from dynax import ISPHS, ODESolver, LyapunovNN
 import klax
 
 import equinox as eqx
