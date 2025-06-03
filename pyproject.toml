@@ -3,20 +3,12 @@ name = "oscillator4control"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-authors = [
-    { name = "Fabian Roth", email = "fabian.roth.24@stud.tu-darmstadt.de" }
-]
 requires-python = ">=3.12"
 dependencies = [
-    "klax",
+    "dynax",
+    "matplotlib>=3.10.3",
+    "notebook>=7.4.3",
 ]
 
-[project.scripts]
-oscillator4control = "oscillator4control:main"
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
 [tool.uv.sources]
-klax = { git = "https://github.com/Drenderer/klax", rev = "a6573058a3295b403d11d526055f55cb2ec8515b" }
+dynax = { git = "https://github.com/Drenderer/dynax", rev = "537b321c10c30a0322fdafeb6c6c1119121dfe6b" }
